@@ -1,6 +1,6 @@
 .main-container{
 
-    padding: 0px 40px;   
+    padding: 0px 60px;   
 }
 .top-holder{
     display: flex;
@@ -18,28 +18,28 @@
     background-color: orangered;
     color: white;
     border-radius: 50%;
-   
-   
-    
+    padding: 3px;    
 }
 .membership span{
     border-radius: 20px;
-    background-color: #DDD;
-    padding: 5px;
+    background-color: white;
+    padding: 4px;
+    border: 1.5px solid #DDD; 
     cursor: pointer; 
      
 }
 .header-right{
   display: flex;
 justify-content: space-between ;
-gap: 16px;
+gap: 10px;
+padding-right: 40px;
 }
 .aside-one{
     display: flex;
-    overflow-y: auto rgb(255, 255, 255);
-    width: 700px;
-   flex-direction: column;
-
+    flex: 1;
+     
+    flex-direction: column;
+  
 
 }
 .under-top{
@@ -105,4 +105,114 @@ h2{
 }
 .bottom-left{
     margin-right: 10px;
+}
+.sub-container{
+    display: flex;
+}
+.aside-right{
+    display: flex;
+    flex-basis: 30%;
+ align-content: center;
+ flex-direction: column;
+ padding: 0px 30px;
+ border-left: solid   1px rgb(226, 225, 225);
+
+}
+.logo-right{
+    height: 15px;
+    width: 20px;
+}
+.logo-group{
+    display: flex;
+    justify-content: center;
+}
+.first-right{
+    display: flex;
+    padding: 30px  0px;
+    flex-direction: column;
+    align-content: center;
+    gap: 9px;
+    text-align: center;
+}
+.connection{
+    display: flex;
+    justify-content: center;
+}
+.connect{
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    border: 1.5px solid #DDD; 
+}
+
+.gray{
+    color: gray;
+}
+.second-right{
+  display: flex; 
+   flex-direction: column;
+   padding: 30px  0px;
+    
+}
+.topic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.third-right{
+    display: flex; 
+    flex-direction: column; 
+}
+.author{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    
+    
+   
+}
+.author-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+    
+.author-name{
+    display: flex;
+    flex-direction: column;
+}
+.end-part{
+    border-radius: 20px;
+    background-color: white;
+    padding: 1px;
+    border: 1.5px solid #DDD; 
+   align-self: center;
+   
+   
+  
+}
+.ellipsis-two{
+white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 183px;
+    padding-right: 30px;
+}
+.fourth-pic{
+    display: flex;
+    line-height: 20px;
+    gap: 12px;
+    }
+.space{
+    padding-bottom:30px ;
+}
+
+.green{
+    color: rgb(137, 212, 137);
+}
+.footer{
+    display: flex;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
