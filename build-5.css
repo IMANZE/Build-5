@@ -1,218 +1,198 @@
-.main-container{
-
-    padding: 0px 60px;   
+.main-container {
+  padding: 0px 60px;
 }
-.top-holder{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    box-shadow: 0px 5px rgb(253, 249, 249);
-}
-
-.logo-container{
-    max-height: 100px;
-    max-width: 100px;
-    display: flex;
-}
-.tee span{
-    background-color: orangered;
-    color: white;
-    border-radius: 50%;
-    padding: 3px;    
-}
-.membership span{
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    border: 1.5px solid #DDD; 
-    cursor: pointer; 
-     
-}
-.header-right{
+.top-holder {
   display: flex;
-justify-content: space-between ;
-gap: 10px;
-padding-right: 40px;
-}
-.aside-one{
-    display: flex;
-    flex: 1;
-     
-    flex-direction: column;
-  
-
-}
-.under-top{
-    padding: 26px 0px;
-    display: flex;
-    gap: 12px;
-  
-
-}
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-.keyboard{
-    width: 20px;
-    height: 20px;
-    padding-right: 7px;
-}
-.ellipsis-one{
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    width: 500px;
-   
-}
-   
-.bottom{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    width: 550px;
-}
-h2{
-    margin: 2px;
-    width: 450px;
-}
-.bottom-right{
-    display: flex;
-    justify-content: flex-end;
-    gap: 4px;
-    
-  
-    
-}
-.place-one{
-    display: flex;
-    margin-bottom: 30px;
-    
-    margin-right: 15px;
-    
-}
-.side-pics{
-    height: 120px;
-    width: 150px;
-    
-    justify-content: flex-end;
-}
-.extra{
-    border-radius: 20px;
-    background-color: #DDD;
-    padding: 3px; 
-}
-.bottom-left{
-    margin-right: 10px;
-}
-.sub-container{
-    display: flex;
-}
-.aside-right{
-    display: flex;
-    flex-basis: 30%;
- align-content: center;
- flex-direction: column;
- padding: 0px 30px;
- border-left: solid   1px rgb(226, 225, 225);
-
-}
-.logo-right{
-    height: 15px;
-    width: 20px;
-}
-.logo-group{
-    display: flex;
-    justify-content: center;
-}
-.first-right{
-    display: flex;
-    padding: 30px  0px;
-    flex-direction: column;
-    align-content: center;
-    gap: 9px;
-    text-align: center;
-}
-.connection{
-    display: flex;
-    justify-content: center;
-}
-.connect{
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    border: 1.5px solid #DDD; 
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 5px rgb(253, 249, 249);
 }
 
-.gray{
-    color: gray;
+.logo-container {
+  max-height: 100px;
+  max-width: 100px;
+  display: flex;
 }
-.second-right{
-  display: flex; 
-   flex-direction: column;
-   padding: 30px  0px;
-    
+.tee span {
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
 }
-.topic{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+.membership span {
+  border-radius: 20px;
+  background-color: white;
+  padding: 4px;
+  border: 1.5px solid #ddd;
+  cursor: pointer;
 }
-.third-right{
-    display: flex; 
-    flex-direction: column; 
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-right: 40px;
 }
-.author{
-    display: flex;
-    gap: 10px;
-    padding-bottom: 20px;
-    
-    
-   
+.aside-one {
+  display: flex;
+  flex: 1;
+
+  flex-direction: column;
 }
-.author-pic{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.under-top {
+  padding: 26px 0px;
+  display: flex;
+  gap: 12px;
 }
-    
-.author-name{
-    display: flex;
-    flex-direction: column;
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
-.end-part{
-    border-radius: 20px;
-    background-color: white;
-    padding: 1px;
-    border: 1.5px solid #DDD; 
-   align-self: center;
-   
-   
-  
+.keyboard {
+  width: 20px;
+  height: 20px;
+  padding-right: 7px;
 }
-.ellipsis-two{
-white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    width: 183px;
-    padding-right: 30px;
-}
-.fourth-pic{
-    display: flex;
-    line-height: 20px;
-    gap: 12px;
-    }
-.space{
-    padding-bottom:30px ;
+.ellipsis-one {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 500px;
 }
 
-.green{
-    color: rgb(137, 212, 137);
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 550px;
 }
-.footer{
-    display: flex;
-    padding: 20px 0px;
-    flex-wrap: wrap;
-    gap: 20px;
+h2 {
+  margin: 2px;
+  width: 450px;
+}
+.bottom-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+.place-one {
+  display: flex;
+  margin-bottom: 30px;
+
+  margin-right: 15px;
+}
+.side-pics {
+  height: 120px;
+  width: 150px;
+
+  justify-content: flex-end;
+}
+.extra {
+  border-radius: 20px;
+  background-color: #ddd;
+  padding: 3px;
+}
+.bottom-left {
+  margin-right: 10px;
+}
+.sub-container {
+  display: flex;
+}
+.aside-right {
+  display: flex;
+  flex-basis: 30%;
+  align-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  border-left: solid 1px rgb(226, 225, 225);
+}
+.logo-right {
+  height: 15px;
+  width: 20px;
+}
+.logo-group {
+  display: flex;
+  justify-content: center;
+}
+.first-right {
+  display: flex;
+  padding: 30px 0px;
+  flex-direction: column;
+  align-content: center;
+  gap: 9px;
+  text-align: center;
+}
+.connection {
+  display: flex;
+  justify-content: center;
+}
+.connect {
+  border-radius: 20px;
+  background-color: white;
+  padding: 4px;
+  border: 1.5px solid #ddd;
+}
+
+.gray {
+  color: gray;
+}
+.second-right {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.third-right {
+  display: flex;
+  flex-direction: column;
+}
+.author {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.author-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author-name {
+  display: flex;
+  flex-direction: column;
+}
+.end-part {
+  border-radius: 20px;
+  background-color: white;
+  padding: 1px;
+  border: 1.5px solid #ddd;
+  align-self: center;
+}
+.ellipsis-two {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 183px;
+  padding-right: 30px;
+}
+.fourth-pic {
+  display: flex;
+  line-height: 20px;
+  gap: 12px;
+}
+.space {
+  padding-bottom: 30px;
+}
+
+.green {
+  color: rgb(137, 212, 137);
+}
+.footer {
+  display: flex;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
